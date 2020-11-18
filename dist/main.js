@@ -7,15 +7,8 @@ const standby = function(obj) {
     $(obj).css('width','50%')
 }
 
-// $('#playersContainer').on('error', '.headshot',  function() {
-//     console.log('error loading img');
-//     $(this).attr('src','default.png') 
-// })
-
-
 $('#getTeamPlayers').on('click', function () {
     const teamName = $('#inputTeamName').val().toLowerCase()
     $('#inputTeamName').val('')
     apiManager.getTeamPlayers(teamName, renderer.render)
-
 })
