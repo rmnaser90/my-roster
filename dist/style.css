@@ -1,0 +1,57 @@
+#playersContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    align-items: center;
+    justify-items: center;
+}
+.img-container{
+    margin: 20px;
+    padding: 0px;
+    background-color: white;
+    border: 2px solid black;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.player{
+    background-color: sandybrown;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+.headshot{
+    width:100%;
+}
+#inputTeamName{
+    text-align: center;
+    width: 90%;
+    height: 60px;
+    font-size: 200%;
+}
+#getTeamPlayers{
+    margin: 0px;
+    width:40%;
+    height: 60px;
+    border: none;
+    background-color: seagreen;
+    transition: 0.4s;
+    font-size: 200%;
+}
+#getTeamPlayers:hover{
+
+    font-size: 250%;
+}
+.inputContainer{
+
+    width: 100%;
+   padding: 10px;
+    display: grid;
+    grid-gap: 10px;
+    justify-items: center;
+}
+body{
+    margin: 0px;
+}
