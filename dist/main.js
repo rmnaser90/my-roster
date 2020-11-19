@@ -7,6 +7,8 @@ const standby = function(obj) {
     $(obj).css('width','50%')
 }
 
+
+
 $('#getTeamPlayers').on('click', function () {
     const teamName = $('#inputTeamName').val().toLowerCase()
     $('#inputTeamName').val('')
